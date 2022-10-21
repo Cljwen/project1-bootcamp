@@ -1,4 +1,6 @@
-# Rocket Academy Coding Bootcamp: Project 1: Frontend App
+# Project 1: Pocket Manager
+
+An expense tracker app that stores expense/income entries.
 
 https://bc.rocketacademy.co/1-frontend/1.p-frontend-app
 

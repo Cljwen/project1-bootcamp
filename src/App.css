@@ -1,20 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .App {
   text-align: center;
+  font-family: "Roboto";
+  height: 100%;
+  overflow: scroll;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-/* summary can use */
 .App-header {
-  background-color: #282c34;
-  min-height: 10vh;
+  background-color: white;
+  padding: 10px 30px;
   display: flex;
-  flex-direction: column;
+  column-gap: 10px;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+  text-align: left;
   font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.Overview {
+  background-color: #4e788e;
   color: white;
+  border-radius: 15px 40px;
+  margin: 0px 20px;
+}
+
+.Overview-Header {
+  padding: 10px 10px;
+}
+
+.Overview-Numbers {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.Transaction {
+  margin: 30px 0px 0px 30px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.ZeroEntry {
+  margin: 60px 50px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: dimgray;
+}
+
+.expense {
+  color: #4e588e;
+}
+
+.income {
+  color: #4e8e84;
+}
+
+.black {
+  color: black;
 }
